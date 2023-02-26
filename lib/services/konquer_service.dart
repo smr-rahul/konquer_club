@@ -73,7 +73,6 @@ class KonquerService {
     }else{
       throw Exception(response.reasonPhrase);
     }
-
   }
   Future<bool> cancelBout(int matchId) async {
     Response response = await delete(
@@ -87,7 +86,6 @@ class KonquerService {
     }else{
       throw Exception(response.reasonPhrase);
     }
-
   }
 }
 
